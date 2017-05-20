@@ -24,6 +24,10 @@
             android:screenOrientation="portrait" />
 
         <activity
+            android:name=".activity.QuizActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
             android:name=".activity.AdminHomeActivity"
             android:screenOrientation="portrait" />
     </application>

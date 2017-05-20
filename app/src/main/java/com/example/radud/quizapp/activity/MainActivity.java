@@ -68,12 +68,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onPlayerButtonClicked() {
-        Log.d("TAGTAG", "onPlayerButtonClicked: ");
+        Intent intent = new Intent(this, QuizActivity.class);
+        startActivity(intent);
     }
 
     private void onAdminButtonClicked() {
         Intent intent = new Intent(this, AdminHomeActivity.class);
         startActivity(intent);
-        Log.d("TAGTAG", "onAdminButtonClicked: ");
     }
 }
